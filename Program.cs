@@ -39,6 +39,10 @@ namespace ConsoleApp2
             t3.display();
             test t4 = new test(4, 80);
             t3.display();
+            if (t4.j == 4)
+            {
+                Console.WriteLine("OBJECT 4");
+            }
 
         }
     }
