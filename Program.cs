@@ -37,6 +37,8 @@ namespace ConsoleApp2
             t2.display();
             test t3 = new test(3, 50);
             t3.display();
+            test t4 = new test(4, 80);
+            t3.display();
 
         }
     }
