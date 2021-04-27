@@ -6,7 +6,7 @@ namespace ConsoleApp2
     {
         public int j;
         public int k;
-        public static int i = 0;
+        public static int i = 30;
         public const int t = 50;
 
         public test(int j,int k)
@@ -39,6 +39,7 @@ namespace ConsoleApp2
             t3.display();
             test t4 = new test(4, 80);
             t3.display();
+            Console.WriteLine("This is a Static code "+test.i)
 
         }
     }
