@@ -39,7 +39,8 @@ namespace ConsoleApp2
             t3.display();
             test t4 = new test(4, 80);
             t3.display();
-            Console.WriteLine("This is a Static code "+test.i)
+            Console.WriteLine("This is a Static Value " + test.i);
+            Console.WriteLine("This is a Const value " + test.t);
 
         }
     }
